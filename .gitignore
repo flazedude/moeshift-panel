@@ -1,0 +1,21 @@
+# Build output
+MoEShift.app/
+*.icns
+
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+
+# Model artefacts (never commit weights)
+*.gguf
+*.gguf.part
+*.progress
+experts/
+
+# Editor
+.vscode/
+.idea/
